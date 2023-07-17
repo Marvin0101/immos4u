@@ -2,10 +2,17 @@ import Link from "next/link";
 import classes from "@/styles/Card.module.css";
 import Image from "next/image";
 
-function Card(props: any) {
+interface CardType {
+  link: string,
+  title: string,
+  image: string,
+  text: string
+}
+
+function Card(props: CardType) {
   return (
     <>
-      <Link href="/" className={classes.card}>
+      <Link href={props.link} className={classes.card}>
         <div className={classes["image-container"]}>
           <Image className={classes.image} src={props.image} alt="" fill />
         </div>

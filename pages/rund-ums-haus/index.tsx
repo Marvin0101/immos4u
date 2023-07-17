@@ -1,7 +1,7 @@
 function HousekeepingPage() {
     return ( 
         <>
-            <h2>Hausverwaltung</h2>
+            <h2>Rund ums Haus</h2>
         </>
      );
 }

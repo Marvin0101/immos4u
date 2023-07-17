@@ -25,7 +25,6 @@ export default function App({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ThemeProvider theme={darkTheme}>
-      <CssBaseline />
       <main className={inter.className} id="site-container">
         <Header />
         <div id="page-container">

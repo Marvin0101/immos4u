@@ -42,7 +42,7 @@ export default function Home() {
         <div className={classes.countstats}>
           <div className={classes.counter}>
             <p className={classes.countnumber}>
-              <CountUp isCounting={true} start={10} end={25} duration={5} />+
+              <CountUp isCounting={true} start={10} end={20} duration={5} />+
               Jahre
             </p>
             <p>Erfahung</p>
@@ -69,44 +69,46 @@ export default function Home() {
         <h2 className={classes.texth2}>Ein Auszug unserer Leistungen:</h2>
         <div className={classes.grid}>
           <Card
-            title="Hausverwaltung"
-            text="Hausmeisterdienst und mehr..."
-            image="https://images.unsplash.com/photo-1606836379799-f88b03bc7039?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+            title="Verkauf"
+            text="Alle unsere Dienste beim Verkauf..."
+            link="/kaufobjekte"
+            image="https://images.unsplash.com/photo-1560520031-3a4dc4e9de0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1073&q=80"
           />
           <Card
-            title="Hausverwaltung"
-            text="Hausmeisterdienst und mehr..."
-            image="https://images.unsplash.com/photo-1606836379799-f88b03bc7039?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+            title="Vermietung"
+            text="Alle unsere Dienste bei der Vermietung..."
+            link="/mietobjekte"
+            image="https://images.unsplash.com/photo-1501183638710-841dd1904471?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
           />
           <Card
-            title="Hausverwaltung"
+            title="Hausmeisterservice"
             text="Hausmeisterdienst und mehr..."
-            image="https://images.unsplash.com/photo-1606836379799-f88b03bc7039?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+            link="/rund-ums-haus"
+            image="https://images.unsplash.com/photo-1640682841767-cdfce3aea6e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
           />
           <Card
-            title="Hausverwaltung"
+            title="Malerarbeiten"
             text="Hausmeisterdienst und mehr..."
-            image="https://images.unsplash.com/photo-1606836379799-f88b03bc7039?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+            link="/rund-ums-haus"
+            image="https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
           />
           <Card
-            title="Hausverwaltung"
+            title="Renovierung"
             text="Hausmeisterdienst und mehr..."
-            image="https://images.unsplash.com/photo-1606836379799-f88b03bc7039?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+            link="/rund-ums-haus"
+            image="https://images.unsplash.com/photo-1604159848821-104723525eb4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
           />
           <Card
-            title="Hausverwaltung"
+            title="Instandhaltung"
             text="Hausmeisterdienst und mehr..."
-            image="https://images.unsplash.com/photo-1606836379799-f88b03bc7039?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+            link="/rund-ums-haus"
+            image="https://images.unsplash.com/photo-1676311396794-f14881e9daaa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
           />
           <Card
-            title="Hausverwaltung"
+            title="Gartenservice"
             text="Hausmeisterdienst und mehr..."
-            image="https://images.unsplash.com/photo-1606836379799-f88b03bc7039?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
-          />
-          <Card
-            title="Hausverwaltung"
-            text="Hausmeisterdienst und mehr..."
-            image="https://images.unsplash.com/photo-1606836379799-f88b03bc7039?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+            link="/rund-ums-haus"
+            image="https://images.unsplash.com/photo-1598807919604-1f94e119943b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
           />
         </div>
       {/* </main> */}

@@ -1,3 +1,28 @@
 .row {
-    margin:10px 0px;
+    display: flex;
+    margin:30px 0px;
+    justify-content: space-between;
 }
+
+.addressContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.addresses {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formular {
+    margin: 100px auto;
+    width: 500px;
+}
+
+@media (max-width: 550px) {
+    .formular {
+      width: calc(100vw - 50px);
+    }
+  }

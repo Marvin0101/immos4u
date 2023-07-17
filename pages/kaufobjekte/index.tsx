@@ -11,7 +11,7 @@ function BuyPage() {
   return (
     <>
       <h2>Kaufobjekte</h2>
-      <div className="iframe-container">
+      <div className={classes["iframe-container"]}>
         {isLoading && (
           <>
             <div className="skeleton skeleton-main">Lade Angebote...</div>

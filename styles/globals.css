@@ -111,14 +111,13 @@ a {
   /* padding-bottom: 2.5rem; */
   padding: 0rem 10px 2.5rem 10px;
   max-width: 1220px;
-  margin: 20px auto 0px auto;
-  margin-top: 150px;
+  margin: 150px auto 20px auto;
 }
 
-.iframe-container {
+/* .iframe-container {
   margin-top: 20px;
   height: calc(100vh - 266px);
-}
+} */
 
 .skeleton {
   animation: skeleton-loading 1s linear infinite alternate;
@@ -150,5 +149,11 @@ a {
   100% {
     background-color: hsl(0, 0%, 32%);
     color: hsl(0, 0%, 76%);
+  }
+}
+
+@media (max-width: 465px) {
+  #page-container{
+      padding-bottom: 5rem;
   }
 }
