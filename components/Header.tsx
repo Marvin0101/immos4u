@@ -39,6 +39,7 @@ function Header() {
     <>
       <header className={classes.header}>
         <nav className={classes.nav} style={{ height: height }}>
+            <Link href="/">
           <div className={classes["title-container"]}>
             <div
               className={classes["image-container"]}
@@ -46,10 +47,11 @@ function Header() {
             >
               <Image className={classes.image} src="/immo.png" alt="" fill />
             </div>
-            <Link href="/" className={classes.title}>
+              <div className={classes.title}>
               immos<span className={classes.colored}>4</span>u
-            </Link>
+              </div>
           </div>
+            </Link>
           <div className={classes.menu}>
             <Link href="/kaufobjekte" className={classes.link}>
               Kaufobjekte
