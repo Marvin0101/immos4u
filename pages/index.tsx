@@ -9,14 +9,6 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>immos4u</title>
-        <meta name="description" content="Immobilien für dich" />
-        {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
-        <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi"></meta>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      {/* <main className={classes.main}> */}
         <div className={classes.welcome}>
           <h2 className={classes.texth2}>
             Wir für Sie - zuverlässig, kompetent und ehrlich!
@@ -111,7 +103,6 @@ export default function Home() {
             image="https://images.unsplash.com/photo-1598807919604-1f94e119943b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
           />
         </div>
-      {/* </main> */}
     </>
   );
 }
