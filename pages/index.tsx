@@ -37,7 +37,7 @@ export default function Home() {
               <CountUp isCounting={true} start={10} end={20} duration={5} />+
               Jahre
             </p>
-            <p>Erfahung</p>
+            <p>Erfahrung</p>
           </div>
           <div className={classes.counter}>
             <p className={classes.countnumber}>

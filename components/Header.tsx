@@ -88,7 +88,7 @@ function Header() {
                       <ListItemText primary="Mietobjekte" />
                     </ListItemButton>
                   </Link>
-                  <Link href="/hausverwaltung">
+                  <Link href="/rund-ums-haus">
                     <ListItemButton>
                       <ListItemText primary="Rund ums Haus" />
                     </ListItemButton>
