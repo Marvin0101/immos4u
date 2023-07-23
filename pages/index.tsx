@@ -18,7 +18,7 @@ export default function Home() {
             Inhabergeführtes Familienunternehmen mit Sitz in Hirschberg a.d.
             Bergstraße haben wir uns auf die Beratung und die Vermittlung und
             Verwaltung von Immobilien im In-und Ausland spezialisiert. Neu
-            bieten wir unseren Kunden den Service " Alles rund um Haus "
+            bieten wir unseren Kunden den Service &quot; Alles rund um Haus &quot;
             erfolgreich an.
           </p>
           <p className={classes.textp}>

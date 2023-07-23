@@ -71,7 +71,7 @@ function ContactForm() {
               />
             </div>
           </div>
-          <Button variant="outlined" startIcon={<SendIcon />}>
+          <Button variant="outlined" color="warning" startIcon={<SendIcon />}>
             Senden
           </Button>
         </form>

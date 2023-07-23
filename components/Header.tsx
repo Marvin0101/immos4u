@@ -59,7 +59,7 @@ function Header() {
             <Link href="/mietobjekte" className={classes.link}>
               Mietobjekte
             </Link>
-            <Link href="/hausverwaltung" className={classes.link}>
+            <Link href="/rund-ums-haus" className={classes.link}>
               Rund ums Haus
             </Link>
             <Link href="/referenzen" className={classes.link}>

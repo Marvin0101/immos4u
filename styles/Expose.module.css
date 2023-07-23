@@ -1,0 +1,47 @@
+.flex {
+    display: flex;
+    gap: 30px;
+    margin: 50px 20px;
+    align-items: center;
+}
+
+.image-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.small-image-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+}
+
+.small-image-container {
+    position: relative;
+    width: 160px;
+    height: 100px;
+}
+
+.image {
+    object-fit: cover;
+}
+
+.flex-text {
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.text {
+    height: 175px;
+    overflow-y: auto;
+    padding-right: 5px;
+}

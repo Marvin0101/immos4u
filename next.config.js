@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images : {
-    domains : ['images.unsplash.com', 'localhost', 'picsum.photos'] // <== Domain name
+    domains : ['images.unsplash.com', 'localhost', 'picsum.photos', 'pictures.immobilienscout24.de'] // <== Domain name
   }
 }
 
