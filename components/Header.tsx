@@ -6,7 +6,6 @@ import MenuIcon from "@mui/icons-material/Menu";
 import {
   Drawer,
   List,
-  ListItem,
   ListItemButton,
   ListItemText,
 } from "@mui/material";
@@ -53,6 +52,9 @@ function Header() {
           </div>
             </Link>
           <div className={classes.menu}>
+            <Link href="/" className={classes.link}>
+              Start
+            </Link>
             <Link href="/kaufobjekte" className={classes.link}>
               Kaufobjekte
             </Link>
@@ -78,6 +80,11 @@ function Header() {
             >
               <div className={classes.drawer}>
                 <List className={classes.drawer}>
+                  <Link href="/">
+                    <ListItemButton>
+                      <ListItemText primary="Start" />
+                    </ListItemButton>
+                  </Link>
                   <Link href="/kaufobjekte">
                     <ListItemButton>
                       <ListItemText primary="Kaufobjekte" />

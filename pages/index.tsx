@@ -53,9 +53,9 @@ export default function Home() {
           </div>
           <div className={classes.counter}>
             <p className={classes.countnumber}>
-              <CountUp isCounting start={5} end={10} duration={5} />+
+              <CountUp isCounting start={5} end={30} duration={5} />+
             </p>
-            <p>Hausverwaltungen</p>
+            <p>Hausmeisterservices</p>
           </div>
         </div>
         <h2 className={classes.texth2}>Ein Auszug unserer Leistungen:</h2>

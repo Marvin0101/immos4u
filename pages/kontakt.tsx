@@ -11,7 +11,7 @@ function ContactPage() {
           Wir freuen uns über Ihre Nachricht!
           <Address name="immos4u®" tel="+49 6201 - 878585" street="Unterer Häuselbergweg 8" city="69493 Hirschberg a.d. Bergstraße"/>
           <Address name="Andrea Carta" position="Immobilienmaklerin" mobil="+49 152 - 53519024" mail="carta@immos4u.eu"/>
-          <Address name="Tobias Hablowetz" position="Rund ums Haus" mobil="+49 152 - 53519024" mail="carta@immos4u.eu"/>
+          <Address name="Tobias Hablowetz" position="Rund ums Haus" mobil="+49 176 - 62771773" mail="hablowetz@immos4u.eu"/>
         </div>
         <br />
         <iframe
@@ -26,7 +26,7 @@ function ContactPage() {
       <div className={classes.formular}>
         <h3>Oder nutzen Sie einfach unser Kontaktformular:</h3>
         <br />
-        <ContactForm></ContactForm>
+        <ContactForm />
       </div>
     </>
   );
