@@ -4,9 +4,9 @@ import classes from "@/styles/Housekeeping.module.css";
 function HousekeepingPage() {
   return (
     <>
+      <div id="verkauf"></div>
       <h2>Rund ums Haus</h2>
       <div className={classes.serviceContainer}>
-      <div id="verkauf"></div>
       <Service
         title="Verkauf"
         imageLeft="https://images.unsplash.com/photo-1676311396794-f14881e9daaa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
