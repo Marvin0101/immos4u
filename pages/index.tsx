@@ -1,8 +1,8 @@
-import Head from "next/head";
 import { Inter } from "next/font/google";
 import classes from "@/styles/Home.module.css";
 import Card from "@/components/Card";
-import { CountUp } from "use-count-up";
+import Countstats from "@/components/Countstats";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,33 +31,7 @@ export default function Home() {
             – Gruppe und Partner.
           </p>
         </div>
-        <div className={classes.countstats}>
-          <div className={classes.counter}>
-            <p className={classes.countnumber}>
-              <CountUp isCounting={true} start={10} end={20} duration={5} />+
-              Jahre
-            </p>
-            <p>Erfahrung</p>
-          </div>
-          <div className={classes.counter}>
-            <p className={classes.countnumber}>
-              <CountUp isCounting start={20} end={200} duration={5} />+
-            </p>
-            <p>Verkaufte Immobilien</p>
-          </div>
-          <div className={classes.counter}>
-            <p className={classes.countnumber}>
-              <CountUp isCounting start={300} end={500} duration={5} />+
-            </p>
-            <p>Vermietete Immobilien</p>
-          </div>
-          <div className={classes.counter}>
-            <p className={classes.countnumber}>
-              <CountUp isCounting start={5} end={30} duration={5} />+
-            </p>
-            <p>Hausmeisterservices</p>
-          </div>
-        </div>
+        <Countstats />
         <h2 className={classes.texth2}>Ein Auszug unserer Leistungen:</h2>
         <div className={classes.grid}>
           <Card

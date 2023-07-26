@@ -26,3 +26,16 @@
       width: calc(100vw - 50px);
     }
   }
+
+@media (max-width: 750px) {
+    .addressContainer {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .map {
+        width: 100%;
+    }
+    .formular {
+        margin-top: 75px;
+    }
+  }

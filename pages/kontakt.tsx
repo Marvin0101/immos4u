@@ -21,6 +21,7 @@ function ContactPage() {
           style={{ border: "0" }}
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
+          className={classes.map}
         ></iframe>
       </div>
       <div className={classes.formular}>

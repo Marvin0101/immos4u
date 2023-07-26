@@ -26,33 +26,6 @@
   justify-content: center;
 }
 
-.countstats {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin: 50px 0px;
-}
-.counter {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  width: 300px;
-  height: 160px;
-  background-color: rgb(47, 60, 60);
-}
-
-.countnumber {
-  color: orange;
-  font-size: 42px;
-  font-weight: bold;
-  text-align: center;
-}
-
-
-
-
 @media (prefers-reduced-motion) {
   .card:hover span {
     transform: none;
