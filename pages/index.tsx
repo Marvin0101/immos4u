@@ -37,43 +37,43 @@ export default function Home() {
           <Card
             title="Verkauf"
             text="Alle unsere Dienste beim Verkauf..."
-            link="/kaufobjekte"
+            link="/rund-ums-haus#verkauf"
             image="https://images.unsplash.com/photo-1560520031-3a4dc4e9de0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1073&q=80"
           />
           <Card
             title="Vermietung"
             text="Alle unsere Dienste bei der Vermietung..."
-            link="/mietobjekte"
+            link="/rund-ums-haus#vermietung"
             image="https://images.unsplash.com/photo-1501183638710-841dd1904471?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
           />
           <Card
             title="Hausmeisterservice"
             text="Hausmeisterdienst und mehr..."
-            link="/rund-ums-haus"
+            link="/rund-ums-haus#hausmeisterservice"
             image="https://images.unsplash.com/photo-1640682841767-cdfce3aea6e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
           />
           <Card
             title="Malerarbeiten"
             text="Hausmeisterdienst und mehr..."
-            link="/rund-ums-haus"
+            link="/rund-ums-haus#malerarbeiten"
             image="https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
           />
           <Card
             title="Renovierung"
             text="Hausmeisterdienst und mehr..."
-            link="/rund-ums-haus"
+            link="/rund-ums-haus#renovierung"
             image="https://images.unsplash.com/photo-1604159848821-104723525eb4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
           />
           <Card
             title="Instandhaltung"
             text="Hausmeisterdienst und mehr..."
-            link="/rund-ums-haus"
+            link="/rund-ums-haus#instandhaltung"
             image="https://images.unsplash.com/photo-1676311396794-f14881e9daaa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
           />
           <Card
             title="Gartenservice"
             text="Hausmeisterdienst und mehr..."
-            link="/rund-ums-haus"
+            link="/rund-ums-haus#gartenservice"
             image="https://images.unsplash.com/photo-1598807919604-1f94e119943b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
           />
         </div>
