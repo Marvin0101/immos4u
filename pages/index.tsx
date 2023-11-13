@@ -33,7 +33,7 @@ export default function Home() {
             Wir sind seit 2005 als Immobilieninitiator tätig und haben uns auf die Vermittlung von Immobilien im In- und Ausland spezialisiert. Wir verfügen über ein starkes regionales Netzwerk und eine sehr gepflegte Interessentenkartei, die es uns ermöglicht, Ihnen die besten Angebote zu präsentieren.
           </p>
           <p className={classes.textp}>
-          Wir sind nicht nur Makler, sondern auch Dienstleister. Wir bieten Ihnen einen umfassenden Service “Alles rund ums Haus”, der von der Fotografie und Exposé-Erstellung über die Bonitätsprüfung der Interessenten bis hin zur Wohnungsübergabe und -abnahme reicht. 
+          Wir sind nicht nur Makler, sondern auch Dienstleister. Wir bieten Ihnen einen umfassenden Service &quot;Alles rund ums Haus&quot;, der von der Fotografie und Exposé-Erstellung über die Bonitätsprüfung der Interessenten bis hin zur Wohnungsübergabe und -abnahme reicht. 
           </p>
           <p className={classes.textp}>
           Wir sind Immobilien-Menschen mit Leib und Seele. Wir lieben, was wir tun, und das merken Sie auch an unserer Arbeit. Wir sind immer für Sie da, auch nach dem Verkauf oder der Vermietung Ihrer Immobilie. Wir freuen uns auf Ihre Kontaktaufnahme!

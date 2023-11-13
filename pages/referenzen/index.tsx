@@ -72,7 +72,7 @@ function ReferentPage() {
                 src="/referenzen/leimen.jpg"
                 alt="EW Leimen"
                 hasText
-            > Eigentumswohnung in Leimen - Wir  haben " unsere " Maklerin gefunden!
+            > Eigentumswohnung in Leimen - Wir  haben &quot;unsere&quot; Maklerin gefunden!
             </Referent>
             <Referent
                 title= "Verkauft - Mehrfamilienhaus in Heidelberg"
