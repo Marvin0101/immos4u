@@ -24,11 +24,11 @@ function ContactPage() {
           className={classes.map}
         ></iframe>
       </div>
-      <div className={classes.formular}>
+      {/* <div className={classes.formular}>
         <h3>Oder nutzen Sie einfach unser Kontaktformular:</h3>
         <br />
         <ContactForm />
-      </div>
+      </div> */}
     </>
   );
 }

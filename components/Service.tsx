@@ -24,7 +24,7 @@ function Service(props: any) {
         </div>
       </div>
         <div className={classes.text}>
-            {props.text}
+            {props.children}
         </div>
     </>
   );

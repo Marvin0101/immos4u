@@ -14,13 +14,13 @@ function Countstats() {
         </div>
         <div className={classes.counter}>
           <p className={classes.countnumber}>
-            <CountUp isCounting start={20} end={200} duration={5} />+
+            <CountUp isCounting start={500} end={2000} duration={5} />+
           </p>
           <p>Verkaufte Immobilien</p>
         </div>
         <div className={classes.counter}>
           <p className={classes.countnumber}>
-            <CountUp isCounting start={300} end={500} duration={5} />+
+            <CountUp isCounting start={3000} end={5000} duration={5} />+
           </p>
           <p>Vermietete Immobilien</p>
         </div>
