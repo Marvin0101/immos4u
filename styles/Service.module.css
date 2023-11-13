@@ -17,6 +17,7 @@
 .imageFlex {
     display: flex;
     gap: 10px;
+
 }
 
 .imageContainer {
@@ -33,4 +34,17 @@
     margin-top: 20px;
     font-size: 1.125rem;
     line-height: 2rem;
+}
+
+@media(max-width: 500px) {
+    .imageFlex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imageContainer {
+        position: relative;
+        width: 300px;
+        height: 250px;
+    }
 }
