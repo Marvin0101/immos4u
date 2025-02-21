@@ -103,7 +103,7 @@ function Gallery() {
             className={classes.image}
           />
         </div>
-        <div>
+        {/* <div>
         <Image
             src="/region/P1010015.jpg"
             alt="Region"
@@ -147,7 +147,7 @@ function Gallery() {
             height={200}
             className={classes.image}
           />
-        </div>
+        </div> */}
       </Carousel>
     </div>
   );
