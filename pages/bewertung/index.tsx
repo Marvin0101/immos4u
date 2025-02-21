@@ -1,7 +1,7 @@
 import { useState } from "react";
 import classes from "@/styles/BuyPage.module.css";
 
-function RentPage() {
+function EvaluationPage() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
   const iframeLoading = () => {
@@ -10,21 +10,19 @@ function RentPage() {
   };
   return (
     <>
-      <h2>Mietobjekte</h2>
+      <h2>Immobilienbewertung</h2>
       <div className={classes["iframe-container"]}>
         {isLoading && (
           <>
-            <div className="skeleton skeleton-main">Lade Angebote...</div>
-            <div className="skeleton skeleton-main">Lade Angebote...</div>
-            <div className="skeleton skeleton-main">Lade Angebote...</div>
             <div className="skeleton skeleton-text"></div>
             <div className="skeleton skeleton-text"></div>
+            <div className="skeleton skeleton-big">Lade Bewertungsplattform...</div>
             <div className="skeleton skeleton-text"></div>
             <div className="skeleton skeleton-text"></div>
           </>
         )}
         <iframe
-          src="https://portal.immobilienscout24.de/ergebnisliste/90856771?wmode=transparent"
+          src="https://www.immobilien-wertermittlung.de/iwlead/lead?uid=7670&amp;c=immc72qb6m7ag4bt&amp;amp;wmode=dark"
           width="100%"
           height="100%"
           onLoad={iframeLoading}
@@ -35,4 +33,4 @@ function RentPage() {
   );
 }
 
-export default RentPage;
+export default EvaluationPage;

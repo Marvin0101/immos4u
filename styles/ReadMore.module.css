@@ -1,0 +1,26 @@
+.hiddenContent {
+  display: inline-block;
+  max-height: 4.5em;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.hiddenContent.expanded {
+  max-height: 1000px;
+}
+
+.inlineButton {
+  background: none;
+  border: none;
+  color: #fd7800;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 5px;
+  text-decoration: underline;
+}
+
+.inlineButton:hover {
+  color: #fd7800;
+  text-decoration: none;
+}
+  

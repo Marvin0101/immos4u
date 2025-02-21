@@ -11,6 +11,15 @@ const darkTheme = createTheme({
   palette: {
     mode: 'dark',
   },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          textTransform: "none",
+        },
+      },
+    },
+  },
 });
 
 export default function App({ Component, pageProps }: AppProps) {

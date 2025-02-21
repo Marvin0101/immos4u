@@ -10,7 +10,7 @@ function Footer() {
                 <Link href="/jobs">Jobs</Link>
                 <Link href="/kontakt">Kontakt</Link>
             </div>
-            <div>© 2023 immos4u</div>
+            <div>© 2025 immos4u</div>
         </div>
      );
 }

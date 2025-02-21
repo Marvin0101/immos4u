@@ -4,10 +4,10 @@ import classes from "@/styles/Housekeeping.module.css";
 function HousekeepingPage() {
   return (
     <>
-      <div id="verkauf"></div>
+      <div id="hausmeisterservice"></div>
       <h2>Rund ums Haus</h2>
       <div className={classes.serviceContainer}>
-      <Service
+      {/* <Service
         title="Verkauf"
         imageLeft="https://images.unsplash.com/photo-1560520031-3a4dc4e9de0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1073&q=80"
         imageMiddle="https://images.unsplash.com/photo-1560520031-3a4dc4e9de0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1073&q=80"
@@ -19,8 +19,8 @@ function HousekeepingPage() {
         imageLeft="https://images.unsplash.com/photo-1501183638710-841dd1904471?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
         imageMiddle="https://images.unsplash.com/photo-1501183638710-841dd1904471?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
         imageRight="https://images.unsplash.com/photo-1501183638710-841dd1904471?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
-      />
-      <div id="hausmeisterservice"></div>
+      /> */}
+      {/* <div id="hausmeisterservice"></div> */}
       <Service
         title="Hausmeisterservice"
         imageLeft="/hausmeisterservice.jpg"

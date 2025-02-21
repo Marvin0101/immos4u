@@ -1,7 +1,7 @@
 import { useState } from "react";
 import classes from "@/styles/BuyPage.module.css";
 
-function RentPage() {
+function HolidayPage() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
   const iframeLoading = () => {
@@ -10,8 +10,8 @@ function RentPage() {
   };
   return (
     <>
-      <h2>Mietobjekte</h2>
-      <div className={classes["iframe-container"]}>
+      <h2>Ferienobjekte</h2>
+      {/* <div className={classes["iframe-container"]}>
         {isLoading && (
           <>
             <div className="skeleton skeleton-main">Lade Angebote...</div>
@@ -24,15 +24,15 @@ function RentPage() {
           </>
         )}
         <iframe
-          src="https://portal.immobilienscout24.de/ergebnisliste/90856771?wmode=transparent"
+          src="https://portal.immobilienscout24.de/ergebnisliste/78982100?wmode=transparent"
           width="100%"
           height="100%"
           onLoad={iframeLoading}
           style={{ display: isLoading ? "none" : "unset" }}
         ></iframe>
-      </div>
+      </div> */}
     </>
   );
 }
 
-export default RentPage;
+export default HolidayPage;
