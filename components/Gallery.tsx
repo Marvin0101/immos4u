@@ -103,6 +103,15 @@ function Gallery() {
             className={classes.image}
           />
         </div>
+        <div>
+        <Image
+            src="/team/team_immos4u.jpg"
+            alt="Region"
+            width={800}
+            height={200}
+            className={classes.imageFull}
+          />
+        </div>
         {/* <div>
         <Image
             src="/region/P1010015.jpg"

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import classes from "@/styles/BuyPage.module.css";
+import classes from "@/styles/HolidayPage.module.css";
 
 function HolidayPage() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -10,27 +10,22 @@ function HolidayPage() {
   };
   return (
     <>
-      <h2>Ferienobjekte</h2>
-      {/* <div className={classes["iframe-container"]}>
-        {isLoading && (
-          <>
-            <div className="skeleton skeleton-main">Lade Angebote...</div>
-            <div className="skeleton skeleton-main">Lade Angebote...</div>
-            <div className="skeleton skeleton-main">Lade Angebote...</div>
-            <div className="skeleton skeleton-text"></div>
-            <div className="skeleton skeleton-text"></div>
-            <div className="skeleton skeleton-text"></div>
-            <div className="skeleton skeleton-text"></div>
-          </>
-        )}
-        <iframe
-          src="https://portal.immobilienscout24.de/ergebnisliste/78982100?wmode=transparent"
-          width="100%"
-          height="100%"
-          onLoad={iframeLoading}
-          style={{ display: isLoading ? "none" : "unset" }}
-        ></iframe>
-      </div> */}
+      <h2>Unsere Ferienwohnung auf Sardinien</h2>
+      <div className={classes.video}>
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          controls
+          style={{ 
+            objectFit: 'contain'
+          }}
+        >
+          <source src="/videos/ferienwohnung.mp4" type="video/mp4" />
+          Dein Browser unterstützt das Video-Tag nicht.
+        </video>
+      </div>
     </>
   );
 }
