@@ -15,6 +15,15 @@ function Gallery() {
       <Carousel autoplay={{ dotDuration: true }} autoplaySpeed={5000}>
         <div>
           <Image
+            src="/team/team_immos4u.jpg"
+            alt="Region"
+            width={800}
+            height={200}
+            className={classes.imageFull}
+          />
+        </div>
+        <div>
+          <Image
             src="/region/20200909_145007.jpg"
             alt="Region"
             width={800}
@@ -23,7 +32,7 @@ function Gallery() {
           />
         </div>
         <div>
-        <Image
+          <Image
             src="/region/20200909_151806.jpg"
             alt="Region"
             width={800}
@@ -32,7 +41,7 @@ function Gallery() {
           />
         </div>
         <div>
-        <Image
+          <Image
             src="/region/20200909_151835.jpg"
             alt="Region"
             width={800}
@@ -41,7 +50,7 @@ function Gallery() {
           />
         </div>
         <div>
-        <Image
+          <Image
             src="/region/20200909_161831.jpg"
             alt="Region"
             width={800}
@@ -50,7 +59,7 @@ function Gallery() {
           />
         </div>
         <div>
-        <Image
+          <Image
             src="/region/20200909_162529.jpg"
             alt="Region"
             width={800}
@@ -59,7 +68,7 @@ function Gallery() {
           />
         </div>
         <div>
-        <Image
+          <Image
             src="/region/20200909_162736.jpg"
             alt="Region"
             width={800}
@@ -68,7 +77,7 @@ function Gallery() {
           />
         </div>
         <div>
-        <Image
+          <Image
             src="/region/20201025_121611.jpg"
             alt="Region"
             width={800}
@@ -77,7 +86,7 @@ function Gallery() {
           />
         </div>
         <div>
-        <Image
+          <Image
             src="/region/20201025_125107.jpg"
             alt="Region"
             width={800}
@@ -86,7 +95,7 @@ function Gallery() {
           />
         </div>
         <div>
-        <Image
+          <Image
             src="/region/20201025_125155.jpg"
             alt="Region"
             width={800}
@@ -95,21 +104,12 @@ function Gallery() {
           />
         </div>
         <div>
-        <Image
+          <Image
             src="/region/20201025_130934_04.jpg"
             alt="Region"
             width={800}
             height={200}
             className={classes.image}
-          />
-        </div>
-        <div>
-        <Image
-            src="/team/team_immos4u.jpg"
-            alt="Region"
-            width={800}
-            height={200}
-            className={classes.imageFull}
           />
         </div>
         {/* <div>
