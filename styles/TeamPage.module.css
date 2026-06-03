@@ -1,0 +1,132 @@
+.teamPage {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.intro {
+  margin-bottom: 28px;
+}
+
+.intro h2 {
+  color: #fd7800;
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+
+.intro p {
+  /* max-width: 720px; */
+  line-height: 1.7;
+}
+
+.teamList {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.memberCard {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 28px;
+  align-items: stretch;
+  padding: 18px;
+  border: 1px solid rgba(var(--card-border-rgb), 0.3);
+  background: rgba(24, 26, 27, 0.38);
+}
+
+.imageContainer {
+  position: relative;
+  min-height: 230px;
+  background: #181a1b;
+  border: 2px solid #fd7800;
+  overflow: hidden;
+}
+
+.image,
+.imageContain {
+  object-position: center;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.imageContain {
+  object-fit: contain;
+  padding: 18px;
+}
+
+.memberContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 28px;
+  min-width: 0;
+}
+
+.memberContent h3 {
+  font-size: 28px;
+  margin-bottom: 6px;
+}
+
+.position {
+  color: #fd7800;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.contactLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contactLinks a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  color: #d6d3cd;
+  line-height: 1.4;
+  transition: color 160ms ease;
+}
+
+.contactLinks a:hover {
+  color: #fd7800;
+}
+
+@media (max-width: 700px) {
+  .intro h2 {
+    font-size: 28px;
+  }
+
+  .memberCard {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 14px;
+  }
+
+  .imageContainer {
+    min-height: 280px;
+  }
+
+  .memberContent {
+    gap: 18px;
+  }
+
+  .memberContent h3 {
+    font-size: 24px;
+  }
+
+  .contactLinks a {
+    width: 100%;
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (max-width: 420px) {
+  .imageContainer {
+    min-height: 230px;
+  }
+}

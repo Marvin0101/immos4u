@@ -117,6 +117,7 @@ function Header() {
               menuItems={[
                 { label: "Kontakt", link: "/kontakt" },
                 { label: "Team", link: "/team" },
+                { label: "Jobs", link: "/jobs" },
                 { label: "Referenzen", link: "/referenzen" },
               ]}
             />
@@ -281,6 +282,16 @@ function Header() {
                         />
                       </ListItemIcon>
                       <ListItemText primary="Team" />
+                    </ListItemButton>
+                  </Link>
+                  <Link href="/jobs">
+                    <ListItemButton>
+                      <ListItemIcon sx={{ minWidth: "20px" }}>
+                        <ArrowForwardIosIcon
+                          sx={{ fontSize: "1rem", color: "white" }}
+                        />
+                      </ListItemIcon>
+                      <ListItemText primary="Jobs" />
                     </ListItemButton>
                   </Link>
                   <Link href="/referenzen">
