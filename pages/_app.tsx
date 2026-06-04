@@ -1,10 +1,9 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import "@fontsource-variable/inter/standard.css";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import { Inter } from "next/font/google";
 import Head from "next/head";
-const inter = Inter({ subsets: ["latin"] });
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 const darkTheme = createTheme({
@@ -39,7 +38,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
       </Head>
       <ThemeProvider theme={darkTheme}>
-      <main className={inter.className} id="site-container">
+      <main id="site-container">
         <Header />
         <div id="page-container">
           <Component {...pageProps} />

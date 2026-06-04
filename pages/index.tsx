@@ -1,12 +1,8 @@
-import { Inter } from "next/font/google";
 import classes from "@/styles/Home.module.css";
 import Card from "@/components/Card";
 import Countstats from "@/components/Countstats";
 import ReadMore from "@/components/ReadMore";
 import Gallery from "@/components/Gallery";
-
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const welcomeText: string = `Bei uns stehen Sie als Kunde im Mittelpunkt! Als Ihr zuverlässiger Partner bieten wir Ihnen bereits seit 2005 maßgeschneiderte Lösungen für alle Fragen rund um Ihre Immobilie. Ob Vermietung, Verkauf, Finanzierung oder die Durchführung einer Bonitätsprüfung – wir begleiten Sie mit Kompetenz, Erfahrung und Leidenschaft auf jedem Schritt Ihres Weges – im In- sowie im Ausland. Unser Ziel ist es, Ihre Wünsche zu verstehen und die besten Lösungen zu finden – immer persönlich, transparent und engagiert. <br>
