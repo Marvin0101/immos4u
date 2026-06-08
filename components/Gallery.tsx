@@ -13,7 +13,7 @@ function Gallery() {
   return (
     <div>
       <Carousel autoplay={{ dotDuration: true }} autoplaySpeed={5000}>
-        <div>
+        {/* <div>
           <Image
             src="/team/team_immos4u.jpg"
             alt="Region"
@@ -21,7 +21,7 @@ function Gallery() {
             height={200}
             className={classes.imageFull}
           />
-        </div>
+        </div> */}
         <div>
           <Image
             src="/region/20200909_145007.jpg"

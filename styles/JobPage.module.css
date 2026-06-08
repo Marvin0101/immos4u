@@ -33,22 +33,6 @@
   gap: 18px;
 }
 
-.accordion {
-  border: 1px solid rgba(var(--card-border-rgb), 0.3);
-  background: rgba(24, 26, 27, 0.38);
-  color: #d6d3cd;
-  overflow: hidden;
-}
-
-.summary {
-  min-height: auto;
-  padding: 18px;
-}
-
-.summary :global(.MuiAccordionSummary-content) {
-  margin: 0;
-}
-
 .summary :global(.MuiAccordionSummary-expandIconWrapper) {
   color: #fd7800;
 }
@@ -151,10 +135,6 @@
 @media (max-width: 700px) {
   .intro h2 {
     font-size: 28px;
-  }
-
-  .summary {
-    padding: 14px;
   }
 
   .summaryContent h3 {

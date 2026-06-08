@@ -14,29 +14,29 @@ import {
 import classes from "@/styles/JobPage.module.css";
 
 const jobOffers = [
-  {
-    title: "Immobilienmakler (m/w/d)",
-    type: "Teilzeit / freie Mitarbeit",
-    location: "Hirschberg und Rhein-Neckar-Region",
-    schedule: "Flexibel",
-    teaser:
-      "Sie begleiten Eigentümer und Interessenten zuverlässig durch Vermietung und Verkauf.",
-    tasks: [
-      "Betreuung von Eigentümern, Käufern und Mietinteressenten",
-      "Vorbereitung und Durchführung von Besichtigungen",
-      "Unterstützung bei Exposés, Objektaufnahmen und Marktwert-Einschätzungen",
-      "Kommunikation mit Notaren, Hausverwaltungen und Dienstleistern",
-    ],
-    profile: [
-      "Erfahrung in der Immobilienvermittlung oder eine hohe Affinität zum Immobilienmarkt",
-      "Souveränes Auftreten, Verlässlichkeit und Freude am direkten Kundenkontakt",
-      "Selbstständige, strukturierte Arbeitsweise",
-      "Führerschein Klasse B ist von Vorteil",
-    ],
-  },
+  // {
+  //   title: "Immobilienmakler (m/w/d)",
+  //   type: "Teilzeit / freie Mitarbeit",
+  //   location: "Hirschberg und Rhein-Neckar-Region",
+  //   schedule: "Flexibel",
+  //   teaser:
+  //     "Sie begleiten Eigentümer und Interessenten zuverlässig durch Vermietung und Verkauf.",
+  //   tasks: [
+  //     "Betreuung von Eigentümern, Käufern und Mietinteressenten",
+  //     "Vorbereitung und Durchführung von Besichtigungen",
+  //     "Unterstützung bei Exposés, Objektaufnahmen und Marktwert-Einschätzungen",
+  //     "Kommunikation mit Notaren, Hausverwaltungen und Dienstleistern",
+  //   ],
+  //   profile: [
+  //     "Erfahrung in der Immobilienvermittlung oder eine hohe Affinität zum Immobilienmarkt",
+  //     "Souveränes Auftreten, Verlässlichkeit und Freude am direkten Kundenkontakt",
+  //     "Selbstständige, strukturierte Arbeitsweise",
+  //     "Führerschein Klasse B ist von Vorteil",
+  //   ],
+  // },
   {
     title: "Mitarbeiter Hausmeisterservice (m/w/d)",
-    type: "Teilzeit / Minijob",
+    type: "Vollzeit / Teilzeit / Minijob",
     location: "Hirschberg, Weinheim, Heidelberg und Umgebung",
     schedule: "Nach Absprache",
     teaser:
@@ -54,26 +54,26 @@ const jobOffers = [
       "Führerschein Klasse B wünschenswert",
     ],
   },
-  {
-    title: "Aushilfe Garten- und Renovierungsservice (m/w/d)",
-    type: "Minijob / saisonale Unterstützung",
-    location: "Rhein-Neckar-Region",
-    schedule: "Stundenweise",
-    teaser:
-      "Sie packen bei Gartenpflege, Renovierungsarbeiten und vorbereitenden Tätigkeiten mit an.",
-    tasks: [
-      "Unterstützung bei Gartenpflege, Rückschnitt und einfachen Außenarbeiten",
-      "Vorbereitende Tätigkeiten bei Maler- und Renovierungsarbeiten",
-      "Materialtransport und Unterstützung vor Ort",
-      "Sauberes Hinterlassen der Arbeitsbereiche",
-    ],
-    profile: [
-      "Freude an praktischer Arbeit und körperlicher Einsatzbereitschaft",
-      "Teamfähigkeit und zuverlässige Absprachen",
-      "Sorgfältige Arbeitsweise",
-      "Erste Erfahrung im Garten- oder Renovierungsbereich ist hilfreich",
-    ],
-  },
+  // {
+  //   title: "Aushilfe Garten- und Renovierungsservice (m/w/d)",
+  //   type: "Minijob / saisonale Unterstützung",
+  //   location: "Rhein-Neckar-Region",
+  //   schedule: "Stundenweise",
+  //   teaser:
+  //     "Sie packen bei Gartenpflege, Renovierungsarbeiten und vorbereitenden Tätigkeiten mit an.",
+  //   tasks: [
+  //     "Unterstützung bei Gartenpflege, Rückschnitt und einfachen Außenarbeiten",
+  //     "Vorbereitende Tätigkeiten bei Maler- und Renovierungsarbeiten",
+  //     "Materialtransport und Unterstützung vor Ort",
+  //     "Sauberes Hinterlassen der Arbeitsbereiche",
+  //   ],
+  //   profile: [
+  //     "Freude an praktischer Arbeit und körperlicher Einsatzbereitschaft",
+  //     "Teamfähigkeit und zuverlässige Absprachen",
+  //     "Sorgfältige Arbeitsweise",
+  //     "Erste Erfahrung im Garten- oder Renovierungsbereich ist hilfreich",
+  //   ],
+  // },
 ];
 
 function JobPage() {
@@ -96,8 +96,15 @@ function JobPage() {
             key={job.title}
             className={classes.accordion}
             sx={{
-              "&:before": { display: "none" },
+              border: "1px solid rgba(var(--card-border-rgb), 0.3)",
+              backgroundColor: "rgba(24, 26, 27, 0.38)",
               backgroundImage: "none",
+              color: "#d6d3cd",
+              overflow: "hidden",
+              "&:before": { display: "none" },
+              "&.Mui-expanded": {
+                backgroundColor: "rgba(24, 26, 27, 0.38)",
+              },
             }}
           >
             <AccordionSummary
@@ -105,6 +112,21 @@ function JobPage() {
               aria-controls={`${job.title}-content`}
               id={`${job.title}-header`}
               className={classes.summary}
+              sx={{
+                minHeight: "auto",
+                padding: { xs: "14px", sm: "18px" },
+                "&.Mui-expanded": {
+                  minHeight: "auto",
+                },
+                "& .MuiAccordionSummary-content": {
+                  margin: 0,
+                  paddingTop: "8px",
+                  paddingBottom: "8px",
+                  "&.Mui-expanded": {
+                    margin: 0,
+                  },
+                },
+              }}
             >
               <div className={classes.summaryContent}>
                 <div>
