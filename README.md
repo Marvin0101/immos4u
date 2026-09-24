@@ -1,38 +1,141 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# immos4u
 
-## Getting Started
+A production real-estate company website built with Next.js, React and TypeScript.
 
-First, run the development server:
+The application is used as the public website of immos4u and focuses on responsive user interfaces, reusable React components and the presentation of real-estate services across desktop and mobile devices.
+
+## Live Website
+
+https://immos4u.de
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Material UI
+- Ant Design
+- CSS Modules
+- Vercel
+
+## Features
+
+- Responsive layout for desktop and mobile devices
+- Reusable React components
+- Responsive desktop and mobile navigation
+- Drawer-based mobile navigation with Material UI
+- Image carousel built with Ant Design
+- Property and service pages
+- Optimized image handling with Next.js `Image`
+- Client-side navigation with Next.js
+- Component-based frontend architecture
+
+## Project Structure
+
+```text
+components/
+  Address.tsx
+  BasicMenu.tsx
+  Card.tsx
+  Countstats.tsx
+  Expose.tsx
+  Footer.tsx
+  Gallery.tsx
+  Header.tsx
+  ReadMore.tsx
+
+pages/
+  bewertung/
+  ferienobjekte/
+  kaufobjekte/
+  mietobjekte/
+  referenzen/
+  rund-ums-haus/
+  index.tsx
+  kontakt.tsx
+  jobs.tsx
+  team.tsx
+
+styles/
+  *.module.css
+```
+
+## Technical Approach
+
+The application is structured around reusable React components instead of implementing each page independently.
+
+Navigation is shared across the application and adapts to different screen sizes. Desktop users receive a conventional navigation structure, while smaller screens use a drawer-based mobile navigation implemented with Material UI.
+
+The project combines Material UI and Ant Design where their components fit the respective use case, while custom styling is handled through CSS Modules.
+
+Next.js provides the application structure, routing and optimized image handling, while React is used for the component architecture, state management and interactive UI behavior. TypeScript provides type safety throughout the frontend.
+
+## Responsive Navigation
+
+One of the main UI challenges was providing a navigation concept that works consistently across different screen sizes.
+
+The desktop version uses a structured menu with several service categories, while the mobile version switches to a drawer-based navigation. React state is used to control the drawer and interactive behavior.
+
+The header also reacts to scrolling by reducing its size to preserve screen space while keeping navigation accessible.
+
+## Reusable Components
+
+The frontend is divided into reusable components for recurring interface elements such as:
+
+- navigation
+- property presentation
+- service cards
+- galleries
+- statistics
+- expandable content
+
+This keeps page implementations smaller and makes UI behavior and styling more consistent across the website.
+
+## UI Libraries
+
+The application uses both Material UI and Ant Design.
+
+Material UI is primarily used for interactive interface elements such as:
+
+- buttons
+- navigation elements
+- mobile drawer
+- lists
+
+Ant Design is used for the image carousel.
+
+Custom layouts and project-specific styling are implemented with CSS Modules.
+
+## Development
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Create a production build with:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## About the Project
 
-## Learn More
+immos4u is a production website developed for a real-estate company and is actively used as its public-facing company website.
 
-To learn more about Next.js, take a look at the following resources:
+The project was implemented with Next.js, React and TypeScript and includes responsive navigation, reusable UI components, service and property pages, and image galleries.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+A key focus of the implementation was creating a maintainable component structure that works consistently across desktop and mobile layouts.
